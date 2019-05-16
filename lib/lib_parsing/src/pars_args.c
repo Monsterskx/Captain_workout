@@ -6,8 +6,8 @@
 */
 
 #include <stdlib.h>
-#include <string.h>
 #include "parsing.h"
+#include <string.h>
 
 const char *flags[] = {
     HELP,
@@ -15,7 +15,9 @@ const char *flags[] = {
     TIME,
     L_TIME,
     DIFF,
-    L_DIFF
+    L_DIFF,
+    NBEXO,
+    L_NBEXO
 };
 
 static int get_nb_args(char **args)

@@ -1,0 +1,20 @@
+Decription : ./captain_workout [flag...]
+
+Usage : The program exist to test your limit.
+        Here is the flag list :
+
+        -h or --help to print this message
+
+        -t or --time to change the limit time in seconde.
+        30sec is set by default.
+
+        -d or --difficulty to change difficulty,
+           Easy,
+           Medium,
+           Hard,
+        Medium is set by default.
+
+        -n or --number to change the number of exercices
+        10 is set by default
+
+[====]  Developped by Nathan Bellanger  [====]

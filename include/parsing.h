@@ -5,8 +5,8 @@
 ** header of libparsing
 */
 
-#ifndef PARSING_H
-#define PARSING_H
+#ifndef ___PARSING_H
+#define ___PARSING_H
 
 #define HELP "-h"
 #define L_HELP "--help"
@@ -14,9 +14,9 @@
 #define L_TIME "--time"
 #define DIFF "-d"
 #define L_DIFF "--difficulty"
-#define NB_FLAG 6
-
-extern const char *flags[];
+#define NBEXO "-n"
+#define L_NBEXO "--number"
+#define NB_FLAG 8
 
 char **get_flags(char **args);
 

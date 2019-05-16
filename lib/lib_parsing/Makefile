@@ -2,7 +2,7 @@
 ## CAPTAIN PROJECT, 2018
 ## Makefile
 ## File description:
-## compile lib_file
+## compile lib_parsing
 ##
 
 DEFAULT         =       "\e[0m"
